@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="Ваш билет:"
+        android:textColor="#E42121"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dataUser"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="25dp"
+        android:background="#EEF3F6"
+        android:gravity="center"
+        android:hint="Данные билета"
+        android:textColor="#2196E4"
+        android:textColorHint="#87A3AA"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#E42121"
+        android:text="Купить новый билет"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dataUser" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

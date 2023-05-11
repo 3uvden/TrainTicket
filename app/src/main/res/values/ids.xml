@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <item name="nameIn" type="id"/>
+    <item name="addresIn" type="id" />
+    <item name="dataUser" type="id" />
+    <item name="button" type="id" />
+    <item name="addressIn" type="id" />
+    <item name="emailIn" type="id" />
+</resources>
